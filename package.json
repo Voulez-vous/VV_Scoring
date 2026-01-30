@@ -1,0 +1,32 @@
+{
+  "name": "com.vv.scoring",
+  "versionDefines": [
+    {
+      "name": "com.mackysoft.serializereference-extensions",
+      "expression": ">=1.6.1",
+      "define": "MACKYSOFT_SERIALIZE_REFERENCE_LOADED"
+    },
+    {
+      "name": "ayellowpaper.serialized-dictionary",
+      "expression": ">=1.0.13",
+      "define": "AYELLOWPAPER_SERIALIZED_DICTIONARY_LOADED"
+    },
+    {
+      "name": "com.vv.utility",
+      "expression": ">=0.0.2",
+      "define": "VV_UTILITY_LOADED"
+    }
+  ],
+  "displayName": "VV Scoring",
+  "version": "0.0.1",
+  "unity": "6000.0",
+  "dependencies": {
+    "com.mackysoft.serializereference-extensions": "1.6.1",
+    "ayellowpaper.serialized-dictionary": "1.0.0",
+    "com.vv.utility": "0.0.2"
+  },
+  "keywords": [
+    "scoring"
+  ],
+  "type": "tool"
+}

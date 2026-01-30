@@ -1,0 +1,20 @@
+{
+    "name": "voulezvous.scoring.editor",
+    "rootNamespace": "",
+    "references": [
+        "GUID:6be3c04dc422f054f814c52b6f0c55bb"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "MACKYSOFT_SERIALIZE_REFERENCE_LOADED",
+        "AYELLOWPAPER_SERIALIZED_DICTIONARY_LOADED",
+        "VV_UTILITY_LOADED"
+    ],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
