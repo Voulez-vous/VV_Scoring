@@ -3,11 +3,9 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using Unity.Plastic.Newtonsoft.Json.Linq;
-using Unity.Properties;
 using UnityEditor;
 using UnityEditor.PackageManager;
 using UnityEditor.PackageManager.Requests;
-using UnityEditor.UIElements;
 using UnityEngine;
 using UnityEngine.UIElements;
 using PackageInfo = UnityEditor.PackageManager.PackageInfo;
@@ -96,8 +94,6 @@ namespace VV.DependencyLoader
                 });
             }
             
-            
-            
             string jsonDependencies = File.ReadAllText(dependenciesPath);
             Dictionary<string, string> dependenciesLinks = ReadDependencies(jsonDependencies, "git");
 
@@ -142,7 +138,7 @@ namespace VV.DependencyLoader
             if (deps == null)
                 return result;
 
-            foreach (var prop in deps.Properties())
+            foreach (JProperty prop in deps.Properties())
             {
                 result[prop.Name] = prop.Value.ToString();
             }

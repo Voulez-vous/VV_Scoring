@@ -2,7 +2,10 @@
     "name": "voulezvous.scoring.editor",
     "rootNamespace": "",
     "references": [
-        "GUID:6be3c04dc422f054f814c52b6f0c55bb"
+        "GUID:6be3c04dc422f054f814c52b6f0c55bb",
+        "GUID:d525ad6bd40672747bde77962f1c401e",
+        "GUID:234340c04eed5674a988bc6ebde7d248",
+        "GUID:dc6b1cfd2cda163449f404f1bc5a2c27"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
@@ -15,6 +18,22 @@
         "AYELLOWPAPER_SERIALIZED_DICTIONARY_LOADED",
         "VV_UTILITY_LOADED"
     ],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.mackysoft.serializereference-extensions",
+            "expression": "1.6.1",
+            "define": "MACKYSOFT_SERIALIZE_REFERENCE_LOADED"
+        },
+        {
+            "name": "ayellowpaper.serialized-dictionary",
+            "expression": "1.0.0",
+            "define": "AYELLOWPAPER_SERIALIZED_DICTIONARY_LOADED"
+        },
+        {
+            "name": "com.vv.utility",
+            "expression": "0.0.2",
+            "define": "VV_UTILITY_LOADED"
+        }
+    ],
     "noEngineReferences": false
 }

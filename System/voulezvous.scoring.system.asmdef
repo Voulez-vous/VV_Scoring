@@ -1,7 +1,10 @@
 {
     "name": "voulezvous.scoring.system",
     "rootNamespace": "",
-    "references": [],
+    "references": [
+        "GUID:dc6b1cfd2cda163449f404f1bc5a2c27",
+        "GUID:d525ad6bd40672747bde77962f1c401e"
+    ],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
@@ -13,6 +16,22 @@
         "AYELLOWPAPER_SERIALIZED_DICTIONARY_LOADED",
         "VV_UTILITY_LOADED"
     ],
-    "versionDefines": [],
+    "versionDefines": [
+        {
+            "name": "com.mackysoft.serializereference-extensions",
+            "expression": "1.6.1",
+            "define": "MACKYSOFT_SERIALIZE_REFERENCE_LOADED"
+        },
+        {
+            "name": "ayellowpaper.serialized-dictionary",
+            "expression": "1.0.0",
+            "define": "AYELLOWPAPER_SERIALIZED_DICTIONARY_LOADED"
+        },
+        {
+            "name": "com.vv.utility",
+            "expression": "0.0.2",
+            "define": "VV_UTILITY_LOADED"
+        }
+    ],
     "noEngineReferences": false
 }
